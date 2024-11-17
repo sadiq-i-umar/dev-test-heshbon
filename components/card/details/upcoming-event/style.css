@@ -6,6 +6,6 @@
 .MuiPickersCalendarHeader-root {
     display: none !important;
 }
-.MuiTypography-root-MuiDayCalendar-weekDayLabel {
+.MuiDayCalendar-weekDayLabel {
     font-weight: 900 !important;
 }
