@@ -25,12 +25,15 @@ const UpcomingEventCardDetails = () => {
         <Stack gap={1}>
           <Stack direction='row' alignItems='center'>
             <div style={{ marginRight: '5px' }}>
-              <Avatar sx={{ width: '20px', height: '20px' }} />
+              <Avatar
+                src='/account/sadiq.jpg'
+                sx={{ width: '20px', height: '20px' }}
+              />
             </div>
             <div
               style={{ fontWeight: 500, fontSize: '14px', marginRight: '5px' }}
             >
-              David
+              Sadiq
             </div>
             <div
               style={{ fontWeight: 400, fontSize: '12px', color: '#98A2B3' }}
@@ -40,7 +43,6 @@ const UpcomingEventCardDetails = () => {
           </Stack>
           <div
             style={{
-              // width: '',
               fontSize: '14px',
               fontWeight: 600,
               color: '#475367',

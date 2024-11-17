@@ -18,7 +18,7 @@ const ProfileCardDetails = () => {
           }}
         >
           <Avatar
-            src='/account/sadiq.png'
+            src='/account/sadiq.jpg'
             style={{
               width: '85px',
               height: '85px',
