@@ -14,7 +14,7 @@ const Header = () => {
             Welcome, Sadiq 👋
           </div>
           <div style={{ color: '#344054', fontWeight: 400, fontSize: '12px' }}>
-            It's Monday, 14th July 2024
+            It{"'"}s Monday, 14th July 2024
           </div>
         </div>
       </div>

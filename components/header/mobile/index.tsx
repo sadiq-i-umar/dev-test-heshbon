@@ -1,6 +1,6 @@
 import { ImageIcon } from '@/constants';
-import { ChevronLeft, Menu, NotificationsNone } from '@mui/icons-material';
-import { Avatar, Box, MenuItem, Select, Stack } from '@mui/material';
+import { ChevronLeft, Menu } from '@mui/icons-material';
+import { Box, Stack } from '@mui/material';
 import Image from 'next/image';
 
 const HeaderMobile = () => {

@@ -154,10 +154,9 @@ const Main = () => {
           },
         ].map((item, index) => (
           <Grid key={index} xs={12} sm={12} md={6} lg={4} item>
-            <DashboardCard
-              {...item}
-              children={<ManagementCardDetails details={item.details} />}
-            />
+            <DashboardCard {...item}>
+              <ManagementCardDetails details={item.details} />
+            </DashboardCard>
           </Grid>
         ))}
         <Grid xs={12} sm={12} md={12} lg={4} item>
