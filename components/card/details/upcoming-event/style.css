@@ -1,0 +1,11 @@
+.css-5wchs2-MuiDateCalendar-root {
+    width: 100% !important;
+    height: 200px !important;
+}
+
+.css-1nxbkmn-MuiPickersCalendarHeader-root {
+    display: none !important;
+}
+.css-17f9e7e-MuiTypography-root-MuiDayCalendar-weekDayLabel {
+    font-weight: 900 !important;
+}
