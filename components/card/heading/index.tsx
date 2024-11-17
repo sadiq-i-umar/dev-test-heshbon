@@ -28,6 +28,7 @@ const CardHeading: React.FC<{
             fontWeight: 400,
             fontSize: '12px',
             color: '#000000',
+            marginLeft: '20px',
           }}
         >
           View More
