@@ -19,7 +19,7 @@ const Nav = () => {
     <Stack
       style={{
         padding: '10px 10px 10px 15px',
-        width: '270px',
+        width: '275px',
         backgroundColor: 'white',
         height: '100%',
         position: 'relative',
