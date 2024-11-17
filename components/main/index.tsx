@@ -6,6 +6,12 @@ import ProfileCardDetails from '../card/details/profile';
 import UpcomingEventCardDetails from '../card/details/upcoming-event';
 import { ImageIcon } from '@/constants';
 import RecentActivityCardDetails from '../card/details/recent-activity';
+import { Open_Sans } from 'next/font/google';
+
+const openSans = Open_Sans({
+  subsets: ['latin'],
+  weight: ['400', '600', '700'], // specify the weights you need
+});
 
 const Main = () => {
   return (
@@ -43,7 +49,9 @@ const Main = () => {
               textTransform: 'none',
               color: '#0035C3',
               borderColor: '#0035C3',
+              fontWeight: 700,
             }}
+            className={openSans.className}
           >
             View Paystub
           </Button>
@@ -55,7 +63,13 @@ const Main = () => {
             //   fontWeight: 700,
             //   textTransform: 'none',
             // }}
-            style={{ textTransform: 'none', backgroundColor: '#0035C3' }}
+            style={{
+              textTransform: 'none',
+              backgroundColor: '#0035C3',
+              fontWeight: 700,
+              boxShadow: 'none',
+            }}
+            className={openSans.className}
           >
             Performance Summary
           </Button>
